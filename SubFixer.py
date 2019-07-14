@@ -21,7 +21,7 @@ def move_subs(file, sec, mil):
         messagebox.showwarning('Invalid Input', 'Seconds and Miliseconds must be positive numbers!')
         raise Exception
 
-    if ade_o_ret.get() == 2:
+    if ade_o_ret.get() == 1:
         sec = -sec
         mil = -mil
 
